@@ -10,3 +10,7 @@ services:
   project: MoviesAPI/MoviesAPI.csproj
 - name: moviesapp
   image: moviesapp:dev
+  bindings:
+  - port: 4400
+    containerPort: 4400
+    protocol: http
