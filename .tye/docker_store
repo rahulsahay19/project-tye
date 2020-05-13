@@ -1,2 +1,3 @@
-{"container":"moviesapp_ba0e9edd-d"}
-{"container":"moviesapi-proxy_d053a25e-5"}
+{"container":"nginx_43963acc-c"}
+{"container":"moviesapp_9e561fe4-3"}
+{"container":"moviesapi-proxy_69f30963-8"}

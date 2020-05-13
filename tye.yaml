@@ -6,8 +6,17 @@
 #
 name: project-tye
 services:
+- name: nginx
+  image: nginx:latest
+  bindings:
+    - protocol: http
+  volumes:
+    - source: NGINX/nginx.conf
+      target: /etc/nginx/conf.d/default.conf
+
 - name: moviesapi
   project: MoviesAPI/MoviesAPI.csproj
+  
 - name: moviesapp
   image: moviesapp:dev
   bindings:
