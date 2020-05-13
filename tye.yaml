@@ -9,6 +9,8 @@ services:
 - name: nginx
   image: nginx:latest
   bindings:
+    # - port: 8080
+    #   containerPort: 8080
     - protocol: http
   volumes:
     - source: NGINX/nginx.conf
