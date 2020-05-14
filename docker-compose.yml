@@ -1,9 +1,0 @@
-version: '3.4'
-
-services:
-  moviesapp:
-    image: ${DOCKER_REGISTRY}moviesapp:dev
-    # image: kdi-docker.jfrog.io/pnext-api:85065
-    container_name: moviesapp
-    ports:
-      - "4400:80"  
