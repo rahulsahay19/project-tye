@@ -1,5 +1,4 @@
 FROM node:alpine as node
-ARG NPM_TOKEN
 
 WORKDIR /src
 COPY . .
