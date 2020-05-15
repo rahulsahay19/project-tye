@@ -22,8 +22,7 @@ namespace MoviesAPI
 
         public IEnumerable<Movie> GetMovies()
         {
-            _logger.LogInformation("GetBooks invoked");
-            return _movies;
+           return _movies;
         }
     }
 }

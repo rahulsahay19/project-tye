@@ -16,3 +16,4 @@ services:
   image: moviesapp:dev
   bindings:
   - protocol: http
+    port: 4400
